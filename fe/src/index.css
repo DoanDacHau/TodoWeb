@@ -1,0 +1,230 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.create {
+  padding: 8px;
+  background-color: #E8F8EC;
+  border-color: transparent;
+  margin-bottom: 12px;
+  border-radius: 8px;
+}
+.create:hover {
+    background-color: rgb(199, 191, 191);
+    color: white;
+}
+
+.btn-create {
+  background-color: rgb(10, 228, 10);
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+  border-color: transparent;
+}
+
+
+.btn-cancel:hover {
+  background-color: rgb(191, 188, 188);
+}
+
+.modal-reminder, .modal-category {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0,0, 0, 0.4);
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.modal-reminder.open {
+  display: flex;
+}
+
+.modal-category.open {
+  display: flex;
+}
+
+.modal-container-reminder, .modal-container-category {
+  width: 700px;
+  min-height: 400px;
+  background-color: #fff;
+  position: relative;
+  max-width: calc(100% - 32px);
+  animation: modalFadeIn ease 0.5s;
+  background-color: #fff;
+  padding: 12px 20px;
+  z-index: 1;
+}
+
+.modal-reminder-title, .modal-category-title {
+  border-bottom: 1px solid  rgb(186, 183, 183);
+  margin-bottom: 12px;
+  width: 100%;
+}
+
+.input {
+  margin-bottom: 20px;
+}
+
+.modal-container-reminder .form-controls {
+  width: 100%;
+  border: 1px solid rgb(210, 205, 205);
+  padding: 4px 0;
+}
+.modal-container-category .form-controls {
+  width: 100%;
+  border: 1px solid rgb(210, 205, 205);
+  padding: 4px 0;
+}
+
+.icon-space {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  border-radius: 50%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.icon {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.icon i {
+  align-self: center;
+  font-size: 40px;
+  color: white;
+}
+
+.list-color {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.color {
+  width: 50px;
+  height: 50px;
+  border-color: transparent;
+  border-radius: 50%;
+}
+
+.active-color {
+  border: 3px solid gray;
+}
+
+.button {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon-link {
+  display: inline;
+  border-radius: 50%;
+  padding: 4px;
+  margin-right: 4px;
+  color: white;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  font-weight: 400;
+  font-family: "Fira Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+span {
+  font-weight: 500;
+  font-family: "Fira Sans", sans-serif;
+}
+
+body,
+html,
+.App,
+#root,
+.auth-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-light {
+  background-color: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+}
+
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+
+.auth-inner {
+  width: 450px;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all 0.3s;
+}
+
+.auth-wrapper .form-control:focus {
+  border-color: #167bff;
+  box-shadow: none;
+}
+
+.auth-wrapper h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+.custom-control-label {
+  font-weight: 400;
+}
+
+.forgot-password,
+.forgot-password a {
+  text-align: right;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7f7d7d;
+  margin: 0;
+}
+
+.forgot-password a {
+  color: #167bff;
+}
+

@@ -1,0 +1,27 @@
+{
+  "reminders": [
+    {
+      "id": 1,
+      "title": "aaaa",
+      "description": "bbbb",
+      "due_date": "2023-07-13T15:54:36.290Z",
+      "priority": 1,
+      "status": false,
+      "category_id": null
+    }
+  ],
+  "categories": [
+    {
+      "name": "tuan",
+      "color": "rgb(255, 0, 60)",
+      "icon": "fas fa-bars",
+      "id": 1
+    },
+    {
+      "name": "cong",
+      "color": "greenyellow",
+      "icon": "fas fa-bars",
+      "id": 2
+    }
+  ]
+}

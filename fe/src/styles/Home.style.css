@@ -1,0 +1,15 @@
+.navLeft{
+    background-color: rgb(233, 233, 233);
+    margin-left: 10px;
+}
+
+button{
+    background-color: rgb(206, 9, 9);
+}
+.bg-body-tertiary .justify-content-start{
+    margin-left: 100px;
+}
+.bg-body-tertiary .justify-content-end{
+    margin-right: 100px;
+}
+
